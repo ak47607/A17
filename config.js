@@ -16,7 +16,7 @@ global.autoreadgc = process.env.AUTOREADGC || true;
 
 
 // Auth information
-global.pairNumber = "919002162806";                         // Add your paining number with country code example "916297175943"; 
+global.pairNumber = "919064560840";                         // Add your paining number with country code example "916297175943"; 
 global.port = process.env.PORT || "10000";
 global.auth = process.env.AUTH || "Pairing";                // Auth mode OR/Pairing.
 global.sessionFile = process.env.SESSION_FILE || "A17-SESSION";
@@ -26,19 +26,19 @@ global.github = "https://github.com/Kai0071";
 
 
 // Default prefix
-global.prefa = process.env.PREFIX ? process.env.PREFIX.split(",") : ["."];
+global.prefa = process.env.PREFIX ? process.env.PREFIX.split(",") : ["+"];
 
 
 // Owner information
-global.Owner = process.env.OWNER ? process.env.OWNER.split(",") : ["916297175943", "919362639362"];
-global.OwnerNumber = process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.split(",") : ["916297175943", "919362639362"];
-global.ownertag = process.env.OWNER_TAG ? process.env.OWNER_TAG.split(",") : ["916297175943"];
-global.OwnerName = process.env.OWNER_NAME || "Kai";
-global.BotName = process.env.BOT_NAME || "A17";
-global.packname = process.env.PACK_NAME || "A17 Bot";
-global.author = "By: Kai";
-global.BotSourceCode = "https://github.com/Kai0071/A17";
-global.SupportGroupLink = "https://chat.whatsapp.com/GhRGdwfaMVDCoeAdzILfl";
+global.Owner = process.env.OWNER ? process.env.OWNER.split(",") : ["919064560840", "919064560840"];
+global.OwnerNumber = process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.split(",") : ["919064560840", "919064560840"];
+global.ownertag = process.env.OWNER_TAG ? process.env.OWNER_TAG.split(",") : ["919064560840"];
+global.OwnerName = process.env.OWNER_NAME || "SKETOR_XD";
+global.BotName = process.env.BOT_NAME || "SKETOR_BOT";
+global.packname = process.env.PACK_NAME || "SKETOR BOT";
+global.author = "By: SKETOR";
+global.BotSourceCode = "https://github.com/Kai0071/A7";
+global.SupportGroupLink = "https://chat.whatsapp.com/GhRGdwfaMVCoeAdzILfl";
 
 
 //
